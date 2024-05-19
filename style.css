@@ -1,0 +1,236 @@
+body {
+  direction: rtl;
+  margin: 0;
+}
+@font-face {
+  font-family: "kalameh";
+  src: url(font/KalamehWeb_Bold.ttf);
+}
+nav {
+  width: 1196px;
+  height: 81px;
+  border: 1px solid white;
+  border-radius: 50px;
+  z-index: 1000;
+  margin: 0 auto;
+  font-family: kalameh;
+}
+.btn1 {
+  width: 46px;
+  height: 46px;
+  border: 1px solid black;
+  border-radius: 100px;
+  margin-left: 10px;
+  font-family: kalameh;
+}
+.btn2 {
+  width: 129px;
+  height: 48px;
+  border: 1px solid black;
+  border-radius: 50px;
+  font-family: kalameh;
+}
+.image {
+  width: 1512px;
+  height: 886px;
+  background-image: url(images/Rectangle2809.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  z-index: 999;
+}
+.img {
+  width: 1512px;
+  height: 886px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  background: rgba(26, 25, 25, 0.6);
+}
+.text1 {
+  width: 835px;
+  height: 132px;
+  line-height: 132px;
+  color: #f3f3f4;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 180px;
+  font-family: kalameh;
+}
+.text2 {
+  width: 835px;
+  height: 32px;
+  line-height: 32px;
+  color: #eeeeee;
+  text-align: center;
+  margin: 0 auto;
+  font-family: kalameh;
+}
+.button {
+  width: 405px;
+  height: 48px;
+  margin: 0 auto;
+  margin-top: 150px;
+  font-family: kalameh;
+}
+.btn3 {
+  width: 165px;
+  height: 48px;
+  border-radius: 50px;
+  font-family: kalameh;
+}
+.btn4 {
+  width: 224px;
+  height: 48px;
+  border-radius: 50px;
+  font-family: kalameh;
+}
+.content {
+  width: 900px;
+  height: 35px;
+  margin: 200px auto;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: kalameh;
+}
+.content1 {
+  width: 296px;
+  height: 35px;
+  color: white;
+}
+.content2 {
+  width: 231px;
+  height: 30px;
+  color: white;
+}
+.content3 {
+  width: 151px;
+  height: 33px;
+  color: white;
+}
+.scroll {
+  width: 26px;
+  height: 131px;
+  color: white;
+  font-family: kalameh;
+  font-size: 20px;
+  position: relative;
+  right: 1250px;
+  bottom: 650px;
+}
+.test1 {
+  writing-mode: vertical-rl;
+}
+.card-about {
+  width: 1196px;
+  height: 378px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: kalameh;
+}
+.img1 {
+  width: 760px;
+  height: 378px;
+}
+.card-title {
+  color: #ca1119;
+  font-weight: bold;
+}
+.card-title1 {
+  font-weight: bold;
+}
+.card-body1 {
+  width: 404px;
+  height: 320px;
+  text-align: right;
+}
+.card-grouping {
+  width: 1195px;
+  height: 751px;
+  margin: 0 auto;
+  font-family: kalameh;
+}
+.title1 {
+  text-align: center;
+  line-height: 50px;
+}
+.paragraf {
+  color: #595959;
+}
+.group {
+  width: 1193px;
+  height: 63px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.group1 {
+  width: 191px;
+  height: 63px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.group2 {
+  width: 61px;
+  height: 63px;
+  background-image: url(images/Rectangle26144.png);
+}
+.group3 {
+  width: 61px;
+  height: 63px;
+  background-image: url(images/Rectangle26143.png);
+}
+.group4 {
+  width: 61px;
+  height: 63px;
+  background-image: url(images/Rectangle26142.png);
+}
+.group5 {
+  width: 61px;
+  height: 63px;
+  background-image: url(images/Rectangle2614.png);
+}
+.group6 {
+  width: 61px;
+  height: 63px;
+  background-image: url(images/Rectangle26141.png);
+}
+.par {
+  width: 115px;
+  height: 52px;
+  text-align: center;
+  padding-top: 10px;
+}
+.group-bg {
+  width: 1190px;
+  height: 376px;
+  margin: 100px auto;
+}
+.img2 {
+  width: 750px;
+  height: 376px;
+}
+.card-title2 {
+  padding-top: 20px;
+}
+.card-text1 {
+  width: 392px;
+  height: 126px;
+  color: #757575;
+  padding-top: 30px;
+}
+.btn5 {
+  width: 165px;
+  height: 48px;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+.card-body2 {
+  width: 430px;
+  height: 48px;
+  text-align: right;
+  margin-right: 365px;
+}
