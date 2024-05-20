@@ -3,8 +3,8 @@ body {
   margin: 0;
 }
 @font-face {
-  font-family: "kalameh";
-  src: url(font/KalamehWeb_Bold.ttf);
+  font-family: "yekan";
+  src: url(font/Yekan-Bakh-Pro.zip);
 }
 nav {
   width: 1196px;
@@ -13,7 +13,7 @@ nav {
   border-radius: 50px;
   z-index: 1000;
   margin: 0 auto;
-  font-family: kalameh;
+  font-family: yekan;
 }
 .btn1 {
   width: 46px;
@@ -21,14 +21,14 @@ nav {
   border: 1px solid black;
   border-radius: 100px;
   margin-left: 10px;
-  font-family: kalameh;
+  font-family: yekan;
 }
 .btn2 {
   width: 129px;
   height: 48px;
   border: 1px solid black;
   border-radius: 50px;
-  font-family: kalameh;
+  font-family: yekan;
 }
 .image {
   width: 1512px;
@@ -55,7 +55,7 @@ nav {
   text-align: center;
   margin: 0 auto;
   margin-top: 180px;
-  font-family: kalameh;
+  font-family: kyekan;
 }
 .text2 {
   width: 835px;
@@ -64,26 +64,26 @@ nav {
   color: #eeeeee;
   text-align: center;
   margin: 0 auto;
-  font-family: kalameh;
+  font-family: yekan;
 }
 .button {
   width: 405px;
   height: 48px;
   margin: 0 auto;
   margin-top: 150px;
-  font-family: kalameh;
+  font-family: kyekan;
 }
 .btn3 {
   width: 165px;
   height: 48px;
   border-radius: 50px;
-  font-family: kalameh;
+  font-family: yekan;
 }
 .btn4 {
   width: 224px;
   height: 48px;
   border-radius: 50px;
-  font-family: kalameh;
+  font-family: yekan;
 }
 .content {
   width: 900px;
@@ -91,7 +91,7 @@ nav {
   margin: 200px auto;
   display: flex;
   justify-content: space-evenly;
-  font-family: kalameh;
+  font-family: yekan;
 }
 .content1 {
   width: 296px;
@@ -112,7 +112,7 @@ nav {
   width: 26px;
   height: 131px;
   color: white;
-  font-family: kalameh;
+  font-family: yekan;
   font-size: 20px;
   position: relative;
   right: 1250px;
@@ -127,7 +127,7 @@ nav {
   margin: 100px auto;
   display: flex;
   justify-content: space-between;
-  font-family: kalameh;
+  font-family: yekan;
 }
 .img1 {
   width: 760px;
@@ -149,7 +149,7 @@ nav {
   width: 1195px;
   height: 751px;
   margin: 0 auto;
-  font-family: kalameh;
+  font-family: yekan;
 }
 .title1 {
   text-align: center;
@@ -177,26 +177,31 @@ nav {
   width: 61px;
   height: 63px;
   background-image: url(images/Rectangle26144.png);
+  opacity: 0.5;
 }
 .group3 {
   width: 61px;
   height: 63px;
   background-image: url(images/Rectangle26143.png);
+  opacity: 0.5;
 }
 .group4 {
   width: 61px;
   height: 63px;
   background-image: url(images/Rectangle26142.png);
+  opacity: 0.5;
 }
 .group5 {
   width: 61px;
   height: 63px;
   background-image: url(images/Rectangle2614.png);
+  opacity: 0.5;
 }
 .group6 {
   width: 61px;
   height: 63px;
   background-image: url(images/Rectangle26141.png);
+  opacity: 0.5;
 }
 .par {
   width: 115px;
@@ -220,7 +225,7 @@ nav {
   width: 392px;
   height: 126px;
   color: #757575;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 .btn5 {
   width: 165px;
@@ -233,4 +238,78 @@ nav {
   height: 48px;
   text-align: right;
   margin-right: 365px;
+}
+.card-bestseller {
+  width: 1196px;
+  height: 601px;
+  font-family: yekan;
+  margin: 100px auto;
+}
+.card-bestseller1 {
+  width: 1196px;
+  height: 402px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-bestseller2 {
+  width: 287px;
+  height: 402px;
+  text-align: center;
+}
+.img-bestseller {
+  width: 287px;
+  height: 361px;
+  background-color: #efefef;
+  text-align: center;
+  line-height: 361px;
+}
+.form {
+  width: 1511px;
+  height: 758px;
+  margin: 100px auto;
+  background-image: url(images/r-archite.png);
+  font-family: yekan;
+}
+.form-bg1 {
+  width: 1511px;
+  height: 758px;
+  margin: 100px auto;
+  background: rgba(26, 25, 25, 0.6);
+  font-family: yekan;
+}
+.form-bg2 {
+  width: 1150px;
+  height: 394px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: white;
+  position: relative;
+  top: 200px;
+  right: 182px;
+}
+.form-bg3 {
+  width: 382px;
+  height: 394px;
+}
+.card-text p {
+  width: 395px;
+  height: 207px;
+  padding-top: 20px;
+}
+
+.form-bg4 {
+  width: 638.45px;
+  height: 394px;
+  display: inline-block;
+}
+.btn6 {
+  width: 164.89px;
+  height: 46.01px;
+  border-radius: 50px;
+  background-color: #ca1119;
+  font-family: yekan;
+  margin-top: 20px;
 }
