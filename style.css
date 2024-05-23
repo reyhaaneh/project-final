@@ -4,7 +4,7 @@ body {
 }
 @font-face {
   font-family: "yekan";
-  src: url(font/Yekan-Bakh-Pro.zip);
+  src: url(font/YekanBakh-Bold.ttf);
 }
 nav {
   width: 1196px;
@@ -15,7 +15,7 @@ nav {
   margin: 0 auto;
   font-family: yekan;
 }
-.btn1 {
+.btn-bg1 {
   width: 46px;
   height: 46px;
   border: 1px solid black;
@@ -23,7 +23,7 @@ nav {
   margin-left: 10px;
   font-family: yekan;
 }
-.btn2 {
+.btn-bg2 {
   width: 129px;
   height: 48px;
   border: 1px solid black;
@@ -47,7 +47,7 @@ nav {
   margin: 0 auto;
   background: rgba(26, 25, 25, 0.6);
 }
-.text1 {
+.text-bg1 {
   width: 835px;
   height: 132px;
   line-height: 132px;
@@ -55,9 +55,9 @@ nav {
   text-align: center;
   margin: 0 auto;
   margin-top: 180px;
-  font-family: kyekan;
+  font-family: yekan;
 }
-.text2 {
+.text-bg2 {
   width: 835px;
   height: 32px;
   line-height: 32px;
@@ -73,13 +73,13 @@ nav {
   margin-top: 150px;
   font-family: kyekan;
 }
-.btn3 {
+.btn-bg3 {
   width: 165px;
   height: 48px;
   border-radius: 50px;
   font-family: yekan;
 }
-.btn4 {
+.btn-bg4 {
   width: 224px;
   height: 48px;
   border-radius: 50px;
@@ -93,17 +93,17 @@ nav {
   justify-content: space-evenly;
   font-family: yekan;
 }
-.content1 {
+.content-bg1 {
   width: 296px;
   height: 35px;
   color: white;
 }
-.content2 {
+.content-bg2 {
   width: 231px;
   height: 30px;
   color: white;
 }
-.content3 {
+.content-bg3 {
   width: 151px;
   height: 33px;
   color: white;
@@ -118,7 +118,7 @@ nav {
   right: 1250px;
   bottom: 650px;
 }
-.test1 {
+.scroll-bg1 {
   writing-mode: vertical-rl;
 }
 .card-about {
@@ -129,18 +129,14 @@ nav {
   justify-content: space-between;
   font-family: yekan;
 }
-.img1 {
+.img-bg1 {
   width: 760px;
   height: 378px;
 }
 .card-title {
   color: #ca1119;
-  font-weight: bold;
 }
-.card-title1 {
-  font-weight: bold;
-}
-.card-body1 {
+.card-body-bg1 {
   width: 404px;
   height: 320px;
   text-align: right;
@@ -151,7 +147,7 @@ nav {
   margin: 0 auto;
   font-family: yekan;
 }
-.title1 {
+.title-bg1 {
   text-align: center;
   line-height: 50px;
 }
@@ -166,44 +162,43 @@ nav {
   justify-content: space-between;
   margin-top: 50px;
 }
-
-.group1 {
+.group-bg1 {
   width: 191px;
   height: 63px;
   display: flex;
   flex-direction: row-reverse;
 }
-.group2 {
+.group-bg2 {
   width: 61px;
   height: 63px;
   background-image: url(images/Rectangle26144.png);
   opacity: 0.5;
 }
-.group3 {
+.group-bg3 {
   width: 61px;
   height: 63px;
   background-image: url(images/Rectangle26143.png);
   opacity: 0.5;
 }
-.group4 {
+.group-bg4 {
   width: 61px;
   height: 63px;
   background-image: url(images/Rectangle26142.png);
   opacity: 0.5;
 }
-.group5 {
+.group-bg5 {
   width: 61px;
   height: 63px;
   background-image: url(images/Rectangle2614.png);
   opacity: 0.5;
 }
-.group6 {
+.group-bg6 {
   width: 61px;
   height: 63px;
   background-image: url(images/Rectangle26141.png);
   opacity: 0.5;
 }
-.par {
+.paragraf-bg1 {
   width: 115px;
   height: 52px;
   text-align: center;
@@ -214,26 +209,25 @@ nav {
   height: 376px;
   margin: 100px auto;
 }
-.img2 {
+.img-bg2 {
   width: 750px;
   height: 376px;
 }
-.card-title2 {
+.card-title-bg2 {
   padding-top: 20px;
 }
-.card-text1 {
+.card-text-bg1 {
   width: 392px;
   height: 126px;
   color: #757575;
-  padding-top: 20px;
 }
-.btn5 {
+.btn-bg5 {
   width: 165px;
   height: 48px;
   border-radius: 50px;
   margin-top: 50px;
 }
-.card-body2 {
+.card-body-bg2 {
   width: 430px;
   height: 48px;
   text-align: right;
@@ -245,7 +239,7 @@ nav {
   font-family: yekan;
   margin: 100px auto;
 }
-.card-bestseller1 {
+.card-bestseller-bg1 {
   width: 1196px;
   height: 402px;
   margin: 50px auto;
@@ -253,7 +247,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
 }
-.card-bestseller2 {
+.card-bestseller-bg2 {
   width: 287px;
   height: 402px;
   text-align: center;
@@ -305,11 +299,107 @@ nav {
   height: 394px;
   display: inline-block;
 }
-.btn6 {
+.btn-bg6 {
   width: 164.89px;
   height: 46.01px;
   border-radius: 50px;
   background-color: #ca1119;
   font-family: yekan;
   margin-top: 20px;
+}
+.card-articles {
+  width: 1196px;
+  height: 640px;
+  margin: 100px auto;
+  text-align: center;
+  font-family: yekan;
+}
+.articles-bg1 {
+  width: 1196px;
+  height: 441px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+  text-align: right;
+}
+.paragraf-bg2 {
+  color: #757575;
+}
+.footer {
+  width: 1514px;
+  height: 482px;
+  color: white;
+  background-color: black;
+  margin: 100px auto;
+  font-family: yekan;
+}
+.rectangle-bg1 {
+  width: 1514px;
+  height: 86px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.sociol {
+  width: 159px;
+  height: 23px;
+}
+.rectangle-bg2 {
+  width: 1514px;
+  height: 459px;
+  display: inline-block;
+  text-align: center;
+}
+.rectangle-bg3 {
+  width: 1500px;
+  height: 320px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-align: right;
+}
+.group-bg7 {
+  width: 300px;
+  height: 100px;
+  display: inline-block;
+}
+.form-bg5 {
+  width: 300px;
+  height: 48px;
+  border-radius: 50px;
+}
+.btn-bg7 {
+  width: 91px;
+  height: 40px;
+  background-color: #ca1119;
+  border-radius: 50px;
+  position: relative;
+  bottom: 43px;
+  right: 200px;
+}
+.group-bg8 {
+  width: 377px;
+  height: 150px;
+}
+.group-bg9 {
+  width: 88px;
+  height: 176px;
+}
+.bg1 {
+  text-decoration: none;
+  color: white;
+}
+.group-bg10 {
+  width: 88px;
+  height: 177px;
+}
+.rectangle-bg4 p::before {
+  content: "";
+  width: 1199px;
+  height: 2px;
+  background-color: #5e5e5e;
+  display: block;
+  margin: 0 auto;
 }
