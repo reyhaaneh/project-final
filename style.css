@@ -2,6 +2,11 @@ body {
   direction: rtl;
   margin: 0;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 @font-face {
   font-family: "yekan";
   src: url(font/YekanBakh-Bold.ttf);
@@ -21,14 +26,12 @@ nav {
   border: 1px solid black;
   border-radius: 100px;
   margin-left: 10px;
-  font-family: yekan;
 }
 .btn-bg2 {
   width: 129px;
   height: 48px;
   border: 1px solid black;
   border-radius: 50px;
-  font-family: yekan;
 }
 .image {
   width: 1512px;

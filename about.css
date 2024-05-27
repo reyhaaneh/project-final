@@ -1,0 +1,108 @@
+body {
+  direction: rtl;
+  margin: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "yekan";
+  src: url(font/YekanBakh-Bold.ttf);
+}
+nav {
+  width: 1196px;
+  height: 81px;
+  border: 1px solid white;
+  border-radius: 50px;
+  z-index: 1000;
+  margin: 0 auto;
+  font-family: yekan;
+}
+.bg1 {
+  color: #ca1119;
+}
+.btn-bg1 {
+  width: 46px;
+  height: 46px;
+  border-radius: 100px;
+  margin-left: 10px;
+  background-color: #ca1119;
+  color: white;
+}
+.btn-bg2 {
+  width: 129px;
+  height: 48px;
+  border-radius: 50px;
+  background-color: #ca1119;
+  color: white;
+}
+.about-bg1 {
+  width: 1170px;
+  height: 554px;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-family: yekan;
+}
+.img-bg2 {
+  width: 706px;
+  height: 554px;
+}
+.card-body-bg2 {
+  width: 464px;
+  height: 554px;
+  text-align: right;
+  margin-right: 320px;
+}
+.card-title-bg2 {
+  padding-top: 20px;
+}
+.card-text-bg1 {
+  width: 433px;
+  height: 225px;
+  color: #757575;
+  font-size: 14px;
+}
+.group {
+  width: 1193px;
+  height: 63px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-family: yekan;
+}
+.group-bg1 {
+  width: 191px;
+  height: 63px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.group-bg2 {
+  width: 61px;
+  height: 63px;
+  background-image: url(images/Rectangle26144.png);
+}
+.group-bg3 {
+  width: 61px;
+  height: 63px;
+  background-image: url(images/Rectangle26143.png);
+}
+.group-bg4 {
+  width: 61px;
+  height: 63px;
+  background-image: url(images/Rectangle26142.png);
+}
+.group-bg5 {
+  width: 61px;
+  height: 63px;
+  background-image: url(images/Rectangle2614.png);
+}
+.paragraf-bg1 {
+  width: 115px;
+  height: 52px;
+  text-align: center;
+  padding-top: 10px;
+}
